@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Information</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="icon" type="image/x-icon" href="assets/img/icon.ico" />
     <link
       rel="stylesheet"
@@ -119,7 +118,21 @@
           </div>
 
 
-          <p class="overlap article-body font2">
+          <div class="social-share">
+            <a
+              class="social-link facebook"
+              href="https://www.facebook.com/dagbladetinformation/?locale=da_DK"
+              ><i class="fa-brands fa-facebook"></i> DEL</a
+            >
+              <a class="social-link twitter" href="https://x.com/informeren"
+              ><i class="fa-brands fa-twitter"></i> TWEET</a
+            >
+            <a class="social-link email" href="#"
+              ><i class="fa-solid fa-at"></i></i> EMAIL</a
+            >
+          </div>
+
+          <p class="article-body font2">
             »Jeg tænker, at vi lige taler os varme sammen, <br>
             før vi begynder på interviewet,« siger Jens <br>
             Müller, talsperson for det russiske gasfirma <br>
@@ -129,19 +142,6 @@
             kommende russiske gasrørledning, Nord Stream 2 (NS2), der efter planen skal krydse <br>
             dansk farvand.
           </p>
-          <div class="overlap social-share">
-            <a
-              class="social-link facebook"
-              href="https://www.facebook.com/dagbladetinformation/?locale=da_DK"
-              ><i class="fa-brands fa-facebook"></i> DEL</a
-            >
-            <a class="social-link twitter" href="https://x.com/informeren"
-              ><i class="fa-brands fa-twitter"></i> TWEET</a
-            >
-            <a class="social-link email" href="#"
-              ><i class="fa-solid fa-at"></i></i> EMAIL</a
-            >
-          </div>
 
           <div class="subscription-callout">
             <p>
@@ -149,7 +149,7 @@
               er enig...
             </p>
             <a href="#" class="subscription-link">KLIK HER</a>
-            <small
+            <small class="font3"
               >Allerede abonnent? <a href="#" class="login-link">Log ind her</a></small
             >
           </div>
@@ -164,6 +164,7 @@
           <i class="fa-solid fa-circle-left"></i>
           <i class="fa-solid fa-circle-right"></i>
         </div>
+
         <hr class="divider" />
 
         <section class="related-articles">
@@ -251,27 +252,33 @@
 
     <footer>
       <section class="footer-content">
-        <article class="newsletter-signup">
-          <h2 class="footer-heading">Nyhedsbrev</h2>
-          <p class="footer-text">
-            Tilmeld dig Informations nyhedsbrev og få seneste nyt direkte i din
-            indbakke
-          </p>
-          <form action="#" method="post">
-            <input type="email" name="email" placeholder="Email" required />
-            <input type="submit" value="Tilmeld" />
-          </form>
-        </article>
-        <article class="customer-service">
-          <h2 class="footer-heading">Kundeservice</h2>
-          <p class="footer-text">
-            Kontakt os på <a href="tel:12345678">1234 5678</a> eller besøg vores
-            <a href="#">kundeservice-side</a>.
-          </p>
-        </article>
-        <article class="social-media">
-          <h2 class="footer-heading">Følg os</h2>
+        <section class="footer-header">
+          <h2>Information som E-avis</h2>
+          <p>Du kan læse Information, lige som du vil. På din mobil, tablet eller computer - og helt ude i skoven.</p>
+          
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fa-solid fa-desktop"></i> Læs e-avisen på din computer</a>
+            </li>
+            <li>
+              
+              <a href="#">
+                <i class="fa-brands fa-apple"></i> Download til Apple</a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-android"></i> Download til Android</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="social-media">
+          <h2 class="footer-heading">Følg avisen</h2>
           <ul class="social-links">
+            <li>
+              <a href="#"><i class="fa-solid fa-envelope"></i> Nyhedsbrev</a>
+            </li>
             <li>
               <a href="https://www.facebook.com/dagbladetinformation/?locale=da_DK"
                 ><i class="fa-brands fa-facebook"></i> Facebook</a
@@ -283,13 +290,44 @@
               >
             </li>
             <li>
-              <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+              <a href="#"><i class="fa-solid fa-rss"></i> RSS</a>
             </li>
           </ul>
-        </article>
+        </section>
+
+        <img src="assets/img/avis.png" alt="papir">
+
+        <section class="newsletter-signup">
+          <h2 class="footer-heading">Information hver morgen</h2>
+          <form action="#" method="post">
+            <input type="email" name="email" placeholder="Email" required />
+            <input type="submit" value="Tilmeld" />
+          </form>
+
+          <h2>Køb avisen</h2>
+          <ul>
+            <li><a href="#">Få et godt tilbud</a></li>
+            <li><a href="#">Abonnement - selvbetjening</a></li>
+            <li><a href="#">Abonnementsbetingelser</a></li>
+            <li><a href="#">Information i løssalg</a></li>
+            <li><a href="#">Hjælp til information.dk</a></li>
+          </ul>
+        </section>
+        <section class="footer-info">
+          <h2>Om Information</h2>
+          <ul>
+            <li><a href="#">Redaktion</a></li>
+            <li><a href="#">iBureauet</a></li>
+            <li><a href="#">Besøg Butikken</a></li>
+            <li><a href="#">Informations Venner</a></li>
+            <li><a href="#">Ledige stillinger</a></li>
+            <li><a href="#">Økonomi og ledelse</a></li>
+            <li><a href="#">Hosted hos Sentia</a></li>
+        </section>
       </section>
       <hr class="divider" />
       <p class="footer-note">&copy; 2024 Information. All rights reserved.</p>
+      <a href="#">Skriv til os</a>
     </footer>
   </body>
 </html>

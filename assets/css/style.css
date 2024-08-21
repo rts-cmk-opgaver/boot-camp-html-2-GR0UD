@@ -303,6 +303,7 @@ main {
     display: flex;
     gap: 1rem;
     font-weight: bold;
+    align-items: center;
 }
 
 .article-metadata p {
